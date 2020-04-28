@@ -1,6 +1,6 @@
 '''
 Jared Bawden
-Project 6 - Balanced Search Tree
+Project - Balanced Binary Search Tree
 '''
 
 from recursioncounter import RecursionCounter
@@ -19,7 +19,6 @@ class Node:
         ''' return if the node is a leaf '''
         if self.left_child is None and self.right_child is None:
             return True
-        #return self.height == 0
         return False
 
     def update_height(self):
